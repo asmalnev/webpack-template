@@ -59,6 +59,14 @@ module.exports = {
       events: {
         onStart: {
           delete: ['dist']
+        },
+        onEnd: {
+          copy: [
+            {
+              source: path.join('src', 'static'),
+              destination: 'dist'
+            }
+          ]
         }
       }
     }),

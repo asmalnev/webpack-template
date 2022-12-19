@@ -1,3 +1,7 @@
+import React from 'react'
+import ReactDom from 'react-dom'
+import App from './components/app'
+
 import './main.scss'
 import './fonts/fonts.scss'
 
@@ -10,3 +14,5 @@ function component(text) {
 }
 
 document.body.prepend(component('Проект создан на Webpack!'))
+
+ReactDom.render(<App />, document.getElementById('root'))
