@@ -1,0 +1,17 @@
+$font-size: 1rem;
+$font-color: lch(28 99 35);
+$font-family: 'Roboto';
+
+html {
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $font-color;
+}
+
+.logo1 {
+    width: 10em;
+}
+
+.logo2 {
+    width: 10em;
+}
